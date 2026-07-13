@@ -1,0 +1,269 @@
+{
+  "universal": [
+    {
+      "title": "KI-Kompetenz sicherstellen",
+      "citation": "Art. 4 KI-VO",
+      "description": "Anbieter und Betreiber müssen sicherstellen, dass ihr Personal über ein ausreichendes Maß an KI-Kompetenz verfügt.",
+      "addressee": "Anbieter und Betreiber",
+      "category": "universal"
+    }
+  ],
+  "prohibited": [
+    {
+      "title": "Sofortige Außerbetriebnahme / Verbot des Inverkehrbringens",
+      "citation": "Art. 5 KI-VO",
+      "description": "Das KI-System darf NICHT in Verkehr gebracht, in Betrieb genommen oder verwendet werden. Bereits in Betrieb befindliche Systeme müssen unverzüglich außer Betrieb genommen werden.",
+      "addressee": "Alle Beteiligten",
+      "category": "prohibited"
+    }
+  ],
+  "high_risk_provider": [
+    {
+      "title": "Risikomanagementsystem einrichten",
+      "citation": "Art. 9 KI-VO",
+      "description": "Einrichtung, Durchführung, Dokumentation und Aufrechterhaltung eines Risikomanagementsystems über den gesamten Lebenszyklus.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Daten-Governance sicherstellen",
+      "citation": "Art. 10 KI-VO",
+      "description": "Trainings-, Validierungs- und Testdaten müssen qualitativen Anforderungen genügen (Relevanz, Repräsentativität, Fehlerfreiheit, Vollständigkeit).",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Technische Dokumentation erstellen",
+      "citation": "Art. 11 KI-VO i.V.m. Anhang IV",
+      "description": "Umfassende technische Dokumentation VOR Inverkehrbringen erstellen und aktuell halten.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Aufzeichnungspflichten (Logging)",
+      "citation": "Art. 12 KI-VO",
+      "description": "Automatische Protokollierung der Vorgänge während des Betriebs (Logs), um Rückverfolgbarkeit zu gewährleisten.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Transparenz und Informationspflichten",
+      "citation": "Art. 13 KI-VO",
+      "description": "Betriebsanleitungen bereitstellen, die Betreibern die korrekte Nutzung ermöglichen.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Menschliche Aufsicht ermöglichen",
+      "citation": "Art. 14 KI-VO",
+      "description": "Das System muss so konzipiert sein, dass natürliche Personen es wirksam beaufsichtigen können, einschließlich der Möglichkeit, Ausgaben zu ignorieren, zu überschreiben oder rückgängig zu machen.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Genauigkeit, Robustheit und Cybersicherheit",
+      "citation": "Art. 15 KI-VO",
+      "description": "Angemessenes Maß an Genauigkeit, Robustheit und Cybersicherheit während des gesamten Lebenszyklus.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Qualitätsmanagementsystem",
+      "citation": "Art. 17 KI-VO",
+      "description": "Einrichtung eines QMS, das die Einhaltung der Verordnung systematisch sicherstellt (Strategien, Verfahren, Anweisungen).",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "EU-Konformitätserklärung",
+      "citation": "Art. 47 KI-VO",
+      "description": "Formelle Erklärung, dass das KI-System alle Anforderungen erfüllt.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "CE-Kennzeichnung",
+      "citation": "Art. 48 KI-VO",
+      "description": "Anbringung der CE-Kennzeichnung am KI-System.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Registrierung in der EU-Datenbank",
+      "citation": "Art. 49 KI-VO",
+      "description": "Registrierung des Hochrisiko-KI-Systems in der EU-Datenbank VOR Inverkehrbringen.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Beobachtung nach Inverkehrbringen",
+      "citation": "Art. 72 KI-VO",
+      "description": "System zur Beobachtung nach dem Inverkehrbringen einrichten, um Erfahrungen mit der Verwendung zu sammeln.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    },
+    {
+      "title": "Meldung schwerwiegender Vorfälle",
+      "citation": "Art. 73 KI-VO",
+      "description": "Schwerwiegende Vorfälle unverzüglich an die zuständigen Behörden melden.",
+      "addressee": "Anbieter",
+      "category": "high_risk_provider"
+    }
+  ],
+  "high_risk_deployer": [
+    {
+      "title": "Verwendung gemäß Betriebsanleitung",
+      "citation": "Art. 26 Abs. 1 KI-VO",
+      "description": "Sicherstellen, dass das System gemäß der Betriebsanleitung des Anbieters verwendet wird.",
+      "addressee": "Betreiber",
+      "category": "high_risk_deployer"
+    },
+    {
+      "title": "Menschliche Aufsicht gewährleisten",
+      "citation": "Art. 26 Abs. 2 KI-VO",
+      "description": "Natürliche Personen mit Kompetenz, Ausbildung und Befugnis für die menschliche Aufsicht einsetzen.",
+      "addressee": "Betreiber",
+      "category": "high_risk_deployer"
+    },
+    {
+      "title": "Eingabedaten-Qualität sicherstellen",
+      "citation": "Art. 26 Abs. 4 KI-VO",
+      "description": "Sicherstellen, dass Eingabedaten der Zweckbestimmung entsprechen und repräsentativ sind.",
+      "addressee": "Betreiber",
+      "category": "high_risk_deployer"
+    },
+    {
+      "title": "Betrieb überwachen",
+      "citation": "Art. 26 Abs. 5 KI-VO",
+      "description": "Den Betrieb anhand der Betriebsanleitung überwachen und bei Risiken Anbieter informieren.",
+      "addressee": "Betreiber",
+      "category": "high_risk_deployer"
+    },
+    {
+      "title": "Protokolle aufbewahren",
+      "citation": "Art. 26 Abs. 6 KI-VO",
+      "description": "Automatisch erzeugte Protokolle mindestens 6 Monate aufbewahren.",
+      "addressee": "Betreiber",
+      "category": "high_risk_deployer"
+    },
+    {
+      "title": "Grundrechte-Folgenabschätzung",
+      "citation": "Art. 27 KI-VO",
+      "description": "Vor der Inbetriebnahme eine Grundrechte-Folgenabschätzung durchführen (gilt für öffentliche Stellen und bestimmte private Betreiber).",
+      "addressee": "Betreiber",
+      "category": "high_risk_deployer"
+    },
+    {
+      "title": "Registrierung in der EU-Datenbank (Betreiber)",
+      "citation": "Art. 49 Abs. 3 KI-VO",
+      "description": "Betreiber von Hochrisiko-KI-Systemen registrieren sich in der EU-Datenbank.",
+      "addressee": "Betreiber",
+      "category": "high_risk_deployer"
+    }
+  ],
+  "transparency_direct_interaction": [
+    {
+      "title": "Offenlegung der KI-Interaktion",
+      "citation": "Art. 50 Abs. 1 KI-VO",
+      "description": "Nutzer müssen informiert werden, dass sie mit einem KI-System interagieren.",
+      "addressee": "Anbieter",
+      "category": "transparency"
+    }
+  ],
+  "transparency_synthetic_content": [
+    {
+      "title": "Kennzeichnung synthetischer Inhalte",
+      "citation": "Art. 50 Abs. 2 KI-VO",
+      "description": "Künstlich erzeugte oder manipulierte Inhalte müssen maschinenlesbar gekennzeichnet werden.",
+      "addressee": "Anbieter",
+      "category": "transparency"
+    }
+  ],
+  "transparency_emotion_recognition": [
+    {
+      "title": "Information bei Emotionserkennung/biometrischer Kategorisierung",
+      "citation": "Art. 50 Abs. 3 KI-VO",
+      "description": "Betroffene natürliche Personen müssen über den Betrieb des Systems informiert werden.",
+      "addressee": "Betreiber",
+      "category": "transparency"
+    }
+  ],
+  "transparency_deepfake": [
+    {
+      "title": "Deepfake-Offenlegung",
+      "citation": "Art. 50 Abs. 4 KI-VO",
+      "description": "Offenlegen, dass Bild-, Ton- oder Videoinhalte künstlich erzeugt oder manipuliert wurden (Deepfake).",
+      "addressee": "Betreiber",
+      "category": "transparency"
+    }
+  ],
+  "transparency_public_interest_text": [
+    {
+      "title": "KI-generierte Texte kennzeichnen",
+      "citation": "Art. 50 Abs. 4 UAbs. 2 KI-VO",
+      "description": "KI-erzeugte Texte, die die Öffentlichkeit informieren, müssen als KI-generiert offengelegt werden.",
+      "addressee": "Betreiber",
+      "category": "transparency"
+    }
+  ],
+  "gpai": [
+    {
+      "title": "Technische Dokumentation (GPAI)",
+      "citation": "Art. 53 Abs. 1 lit. a KI-VO i.V.m. Anhang XI",
+      "description": "Technische Dokumentation des GPAI-Modells erstellen und aktuell halten.",
+      "addressee": "GPAI-Modell-Anbieter",
+      "category": "gpai"
+    },
+    {
+      "title": "Informationen für nachgelagerte Anbieter",
+      "citation": "Art. 53 Abs. 1 lit. b KI-VO i.V.m. Anhang XII",
+      "description": "Nachgelagerten Anbietern ausreichende Informationen und Dokumentation bereitstellen.",
+      "addressee": "GPAI-Modell-Anbieter",
+      "category": "gpai"
+    },
+    {
+      "title": "Urheberrechtspolicy",
+      "citation": "Art. 53 Abs. 1 lit. c KI-VO",
+      "description": "Policy zur Einhaltung des Urheberrechts erstellen und veröffentlichen (insbesondere für Trainingsdaten).",
+      "addressee": "GPAI-Modell-Anbieter",
+      "category": "gpai"
+    },
+    {
+      "title": "Trainingsdaten-Zusammenfassung",
+      "citation": "Art. 53 Abs. 1 lit. d KI-VO",
+      "description": "Hinreichend detaillierte Zusammenfassung der zum Training verwendeten Inhalte bereitstellen.",
+      "addressee": "GPAI-Modell-Anbieter",
+      "category": "gpai"
+    }
+  ],
+  "gpai_systemic": [
+    {
+      "title": "Modellbewertung durchführen",
+      "citation": "Art. 55 Abs. 1 lit. a KI-VO",
+      "description": "Modellbewertungen einschließlich Durchführung und Dokumentation von Angriffstests (Adversarial Testing) nach dem Stand der Technik.",
+      "addressee": "GPAI-Modell-Anbieter (systemisches Risiko)",
+      "category": "gpai_systemic"
+    },
+    {
+      "title": "Systemische Risiken bewerten und mindern",
+      "citation": "Art. 55 Abs. 1 lit. b KI-VO",
+      "description": "Mögliche systemische Risiken, einschließlich ihrer Quellen, bewerten und mindern.",
+      "addressee": "GPAI-Modell-Anbieter (systemisches Risiko)",
+      "category": "gpai_systemic"
+    },
+    {
+      "title": "Schwerwiegende Vorfälle melden (GPAI)",
+      "citation": "Art. 55 Abs. 1 lit. c KI-VO",
+      "description": "Schwerwiegende Vorfälle und mögliche Abhilfemaßnahmen verfolgen, dokumentieren und unverzüglich dem Büro für KI melden.",
+      "addressee": "GPAI-Modell-Anbieter (systemisches Risiko)",
+      "category": "gpai_systemic"
+    },
+    {
+      "title": "Angemessenes Cybersicherheitsniveau",
+      "citation": "Art. 55 Abs. 1 lit. d KI-VO",
+      "description": "Angemessenes Maß an Cybersicherheit für das GPAI-Modell und seine physische Infrastruktur gewährleisten.",
+      "addressee": "GPAI-Modell-Anbieter (systemisches Risiko)",
+      "category": "gpai_systemic"
+    }
+  ]
+}

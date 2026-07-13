@@ -1,0 +1,32 @@
+{
+  "downstream_provider": [
+    {
+      "title": "Anspruch auf technische Dokumentation vom GPAI-Anbieter",
+      "citation": "Art. 53 Abs. 1 lit. b KI-VO i.V.m. Anhang XII",
+      "description": "Als nachgelagerter Anbieter haben Sie Anspruch auf ausführliche technische Dokumentation und Informationen vom Anbieter des GPAI-Modells, um Ihre eigenen Compliance-Pflichten erfüllen zu können.",
+      "against": "GPAI-Modell-Anbieter"
+    }
+  ],
+  "deployer_high_risk": [
+    {
+      "title": "Anspruch auf Betriebsanleitung",
+      "citation": "Art. 13 KI-VO",
+      "description": "Als Betreiber haben Sie Anspruch auf eine Betriebsanleitung vom Anbieter, die alle für den bestimmungsgemäßen Gebrauch relevanten Informationen enthält.",
+      "against": "Anbieter des Hochrisiko-KI-Systems"
+    },
+    {
+      "title": "Anspruch auf Zusammenarbeit bei Konformitätsbewertung",
+      "citation": "Art. 25 Abs. 2 KI-VO",
+      "description": "Der Erstanbieter muss eng zusammenarbeiten, erforderliche Informationen bereitstellen und technischen Zugang sowie sonstige Unterstützung leisten.",
+      "against": "Erstanbieter des KI-Systems"
+    }
+  ],
+  "component_provider_high_risk": [
+    {
+      "title": "Vertraglicher Anspruch auf Informationen von Drittanbietern",
+      "citation": "Art. 25 Abs. 4 KI-VO",
+      "description": "Dritte, die Instrumente, Dienste, Komponenten oder Verfahren bereitstellen, die in einem Hochrisiko-KI-System verwendet werden, müssen vertraglich Informationen, Fähigkeiten, technischen Zugang und sonstige Unterstützung bereitstellen.",
+      "against": "Drittanbieter von Komponenten/Diensten"
+    }
+  ]
+}

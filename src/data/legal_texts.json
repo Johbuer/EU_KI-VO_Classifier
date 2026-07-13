@@ -1,0 +1,525 @@
+{
+  "ART3_DEFINITIONS": {
+    "ki_system": {
+      "nr": 1,
+      "citation": "Art. 3 Nr. 1 KI-VO",
+      "title": "KI-System",
+      "intro": "„KI-System“ bezeichnet:",
+      "text": "ein maschinenbasiertes System, das für einen in unterschiedlichem Grade autonomen Betrieb ausgelegt ist, das nach seiner Betriebsaufnahme anpassungsfähig sein kann und das aus den Eingaben, die es erhält, für explizite oder implizite Ziele ableitet, wie Ausgaben wie etwa Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen erstellt werden, die physische oder virtuelle Umgebungen beeinflussen können"
+    },
+    "anbieter": {
+      "nr": 3,
+      "citation": "Art. 3 Nr. 3 KI-VO",
+      "title": "Anbieter",
+      "intro": "„Anbieter“ bezeichnet:",
+      "text": "eine natürliche oder juristische Person, Behörde, Einrichtung oder sonstige Stelle, die ein KI-System oder ein KI-Modell mit allgemeinem Verwendungszweck entwickelt oder entwickeln lässt und es unter ihrem eigenen Namen oder ihrer eigenen Handelsmarke in Verkehr bringt oder das KI-System unter ihrem eigenen Namen oder ihrer eigenen Handelsmarke in Betrieb nimmt, unabhängig davon, ob dies entgeltlich oder unentgeltlich geschieht"
+    },
+    "betreiber": {
+      "nr": 4,
+      "citation": "Art. 3 Nr. 4 KI-VO",
+      "title": "Betreiber",
+      "intro": "„Betreiber“ bezeichnet:",
+      "text": "eine natürliche oder juristische Person, Behörde, Einrichtung oder sonstige Stelle, die ein KI-System in eigener Verantwortung verwendet, es sei denn, das KI-System wird im Rahmen einer persönlichen und nicht beruflichen Tätigkeit verwendet"
+    },
+    "einfuehrer": {
+      "nr": 6,
+      "citation": "Art. 3 Nr. 6 KI-VO",
+      "title": "Einführer",
+      "intro": "„Einführer“ bezeichnet:",
+      "text": "eine in der Union ansässige oder niedergelassene natürliche oder juristische Person, die ein KI-System in Verkehr bringt, das den Namen oder die Handelsmarke einer in einem Drittland niedergelassenen natürlichen oder juristischen Person trägt"
+    },
+    "haendler": {
+      "nr": 7,
+      "citation": "Art. 3 Nr. 7 KI-VO",
+      "title": "Händler",
+      "intro": "„Händler“ bezeichnet:",
+      "text": "eine natürliche oder juristische Person in der Lieferkette, die ein KI-System auf dem Unionsmarkt bereitstellt, mit Ausnahme des Anbieters oder des Einführers"
+    },
+    "zweckbestimmung": {
+      "nr": 12,
+      "citation": "Art. 3 Nr. 12 KI-VO",
+      "title": "Zweckbestimmung",
+      "intro": "„Zweckbestimmung“ bezeichnet:",
+      "text": "die Verwendung, für die ein KI-System von dem Anbieter vorgesehen ist, einschließlich des bestimmten Kontexts und der bestimmten Bedingungen der Verwendung, wie in den vom Anbieter bereitgestellten Informationen in der Betriebsanleitung, dem Werbe- oder Verkaufsmaterial und den Erklärungen sowie in der technischen Dokumentation angegeben"
+    },
+    "inverkehrbringen": {
+      "nr": 9,
+      "citation": "Art. 3 Nr. 9 KI-VO",
+      "title": "Inverkehrbringen",
+      "intro": "„Inverkehrbringen“ bezeichnet:",
+      "text": "die erstmalige Bereitstellung eines KI-Systems oder eines KI-Modells mit allgemeinem Verwendungszweck auf dem Unionsmarkt"
+    },
+    "inbetriebnahme": {
+      "nr": 11,
+      "citation": "Art. 3 Nr. 11 KI-VO",
+      "title": "Inbetriebnahme",
+      "intro": "„Inbetriebnahme“ bezeichnet:",
+      "text": "die Bereitstellung eines KI-Systems zur erstmaligen Verwendung unmittelbar an den Betreiber oder zum Eigengebrauch in der Union für seine Zweckbestimmung"
+    },
+    "nachgelagerter_anbieter": {
+      "nr": 68,
+      "citation": "Art. 3 Nr. 68 KI-VO",
+      "title": "Nachgelagerter Anbieter",
+      "intro": "„nachgelagerter Anbieter“ bezeichnet:",
+      "text": "einen Anbieter eines KI-Systems, einschließlich eines KI-Systems mit allgemeinem Verwendungszweck, das ein KI-Modell integriert, unabhängig davon, ob das KI-Modell von ihm selbst bereitgestellt und vertikal integriert wird oder von einer anderen Einrichtung auf der Grundlage vertraglicher Beziehungen bereitgestellt wird"
+    },
+    "gpai_modell": {
+      "nr": 63,
+      "citation": "Art. 3 Nr. 63 KI-VO",
+      "title": "KI-Modell mit allgemeinem Verwendungszweck",
+      "intro": "„KI-Modell mit allgemeinem Verwendungszweck“ (GPAI-Modell) bezeichnet:",
+      "text": "ein KI-Modell - einschließlich der Fälle, in denen ein solches KI-Modell mit einer großen Datenmenge unter umfassender Selbstüberwachung trainiert wird -, das eine erhebliche allgemeine Verwendbarkeit aufweist und in der Lage ist, unabhängig von der Art und Weise seines Inverkehrbringens ein breites Spektrum unterschiedlicher Aufgaben kompetent zu erfüllen, und das in eine Vielzahl nachgelagerter Systeme oder Anwendungen integriert werden kann, ausgenommen KI-Modelle, die vor ihrem Inverkehrbringen für Forschungs- und Entwicklungstätigkeiten oder die Konzipierung von Prototypen eingesetzt werden"
+    },
+    "systemisches_risiko": {
+      "nr": 65,
+      "citation": "Art. 3 Nr. 65 KI-VO",
+      "title": "Systemisches Risiko",
+      "intro": "„systemisches Risiko“ bezeichnet:",
+      "text": "ein Risiko, das für die Fähigkeiten mit hoher Wirkkraft von KI-Modellen mit allgemeinem Verwendungszweck spezifisch ist und aufgrund deren Reichweite oder aufgrund tatsächlicher oder vernünftigerweise vorhersehbarer negativer Folgen für die öffentliche Gesundheit, die Sicherheit, die öffentliche Sicherheit, die Grundrechte oder die Gesellschaft insgesamt erhebliche Auswirkungen auf den Unionsmarkt hat"
+    }
+  },
+  "ART5_PROHIBITED": [
+    {
+      "key": "subliminal",
+      "lit": "a",
+      "citation": "Art. 5 Abs. 1 lit. a KI-VO",
+      "short_title": "Unterschwellige Beeinflussung / Manipulation",
+      "intro": "Folgende Praktiken im KI-Bereich sind verboten:",
+      "legal_text": "das Inverkehrbringen, die Inbetriebnahme oder die Verwendung eines KI-Systems, das Techniken der unterschwelligen Beeinflussung außerhalb des Bewusstseins einer Person oder absichtlich manipulative oder täuschende Techniken mit dem Ziel oder der Wirkung einsetzt, das Verhalten einer Person oder einer Gruppe von Personen wesentlich zu verändern, indem ihre Fähigkeit, eine fundierte Entscheidung zu treffen, deutlich beeinträchtigt wird, wodurch sie veranlasst wird, eine Entscheidung zu treffen, die sie andernfalls nicht getroffen hätte, und zwar in einer Weise, die dieser Person, einer anderen Person oder einer Gruppe von Personen erheblichen Schaden zufügt oder mit hinreichender Wahrscheinlichkeit zufügen wird.",
+      "plain_info": "Verboten ist KI, die Menschen heimlich manipuliert. Das betrifft z.B. Systeme, die unbewusste psychologische Tricks nutzen (Dark Patterns auf Steroiden), um Kaufentscheidungen, Wahlverhalten oder andere Handlungen zu erzwingen. Reine Werbung oder Empfehlungen fallen NICHT darunter - es muss eine wesentliche Verhaltensänderung mit Schadenspotenzial vorliegen."
+    },
+    {
+      "key": "vulnerability",
+      "lit": "b",
+      "citation": "Art. 5 Abs. 1 lit. b KI-VO",
+      "short_title": "Ausnutzung von Vulnerabilitäten",
+      "intro": "Folgende Praktiken im KI-Bereich sind verboten:",
+      "legal_text": "das Inverkehrbringen, die Inbetriebnahme oder die Verwendung eines KI-Systems, das eine Vulnerabilität oder Schutzbedürftigkeit einer natürlichen Person oder einer bestimmten Gruppe von Personen aufgrund ihres Alters, einer Behinderung oder einer bestimmten sozialen oder wirtschaftlichen Situation mit dem Ziel oder der Wirkung ausnutzt, das Verhalten dieser Person oder einer dieser Gruppe angehörenden Person in einer Weise wesentlich zu verändern, die dieser Person oder einer anderen Person erheblichen Schaden zufügt oder mit hinreichender Wahrscheinlichkeit zufügen wird",
+      "plain_info": "Verboten ist KI, die gezielt Schwächen bestimmter Gruppen ausnutzt - z.B. Alter (Kinder, Senioren), Behinderungen oder wirtschaftliche Notlagen. Ein Beispiel wäre ein KI-System, das verschuldeten Personen gezielt hochverzinste Kredite aufdrängt, weil es ihre Verzweiflung erkennt."
+    },
+    {
+      "key": "social_scoring",
+      "lit": "c",
+      "citation": "Art. 5 Abs. 1 lit. c KI-VO",
+      "short_title": "Social Scoring",
+      "intro": "Folgende Praktiken im KI-Bereich sind verboten:",
+      "legal_text": "das Inverkehrbringen, die Inbetriebnahme oder die Verwendung von KI-Systemen zur Bewertung oder Einstufung von natürlichen Personen oder Gruppen von Personen über einen bestimmten Zeitraum auf der Grundlage ihres sozialen Verhaltens oder bekannter, abgeleiteter oder vorhergesagter persönlicher Eigenschaften oder Persönlichkeitsmerkmale, wobei die soziale Bewertung zu einem oder beiden der folgenden Ergebnisse führt: i) Schlechterstellung oder Benachteiligung bestimmter natürlicher Personen oder Gruppen von Personen in sozialen Zusammenhängen, die in keinem Zusammenhang zu den Umständen stehen, unter denen die Daten ursprünglich erzeugt oder erhoben wurden; ii) Schlechterstellung oder Benachteiligung bestimmter natürlicher Personen oder Gruppen von Personen in einer Weise, die im Hinblick auf ihr soziales Verhalten oder dessen Tragweite ungerechtfertigt oder unverhältnismässig ist",
+      "plain_info": "Verboten ist ein 'Social Credit System' wie in China. Gemeint sind KI-Systeme, die Menschen über längere Zeit einen 'Score' aufgrund ihres sozialen Verhaltens geben und sie dann auf Basis dieses Scores benachteiligen - z.B. kein Zugang zu Dienstleistungen, weil der 'Sozial-Score' zu niedrig ist. Normale Kreditscoring-Systeme für konkrete Kreditentscheidungen fallen NICHT darunter."
+    },
+    {
+      "key": "predictive_policing",
+      "lit": "d",
+      "citation": "Art. 5 Abs. 1 lit. d KI-VO",
+      "short_title": "Individuelles Predictive Policing",
+      "intro": "Folgende Praktiken im KI-Bereich sind verboten:",
+      "legal_text": "das Inverkehrbringen, die Inbetriebnahme für diesen spezifischen Zweck oder die Verwendung eines KI-Systems zur Durchführung von Risikobewertungen in Bezug auf natürliche Personen, um das Risiko, dass eine natürliche Person eine Straftat begeht, ausschließlich auf der Grundlage des Profiling einer natürlichen Person oder der Bewertung ihrer persönlichen Merkmale und Eigenschaften zu bewerten oder vorherzusagen; dieses Verbot gilt nicht für KI-Systeme, die dazu verwendet werden, die durch Menschen durchgeführte Bewertung der Beteiligung einer Person an einer kriminellen Aktivität, die sich bereits auf objektive und überprüfbare Tatsachen stützt, die in unmittelbarem Zusammenhang mit einer kriminellen Aktivität stehen, zu unterstützen",
+      "plain_info": "Verboten ist KI, die vorhersagt, ob eine bestimmte Person eine Straftat begehen wird, NUR basierend auf Profiling oder Persönlichkeitsmerkmalen. NICHT verboten ist KI, die Ermittlungen unterstützt, wenn bereits konkrete Fakten und Beweise für eine kriminelle Aktivität vorliegen. Der Unterschied: 'Person X wird wahrscheinlich kriminell' (verboten) vs. 'Person X war wahrscheinlich an Tat Y beteiligt, weil Beweise A, B, C vorliegen' (erlaubt)."
+    },
+    {
+      "key": "facial_scraping",
+      "lit": "e",
+      "citation": "Art. 5 Abs. 1 lit. e KI-VO",
+      "short_title": "Ungezieltes Scraping von Gesichtsbildern",
+      "intro": "Folgende Praktiken im KI-Bereich sind verboten:",
+      "legal_text": "das Inverkehrbringen, die Inbetriebnahme für diesen spezifischen Zweck oder die Verwendung von KI-Systemen, die Datenbanken zur Gesichtserkennung durch das ungezielte Auslesen von Gesichtsbildern aus dem Internet oder von Überwachungsaufnahmen erstellen oder erweitern",
+      "plain_info": "Verboten ist das massenhafte, ungezielte Sammeln von Gesichtsbildern aus dem Internet oder von Überwachungskameras zum Aufbau von Gesichtserkennungs-Datenbanken. Dienste wie 'Clearview AI' wären damit in der EU verboten."
+    },
+    {
+      "key": "emotion_workplace",
+      "lit": "f",
+      "citation": "Art. 5 Abs. 1 lit. f KI-VO",
+      "short_title": "Emotionserkennung am Arbeitsplatz / in Bildungseinrichtungen",
+      "intro": "Folgende Praktiken im KI-Bereich sind verboten:",
+      "legal_text": "das Inverkehrbringen, die Inbetriebnahme für diesen spezifischen Zweck oder die Verwendung von KI-Systemen zur Ableitung von Emotionen einer natürlichen Person am Arbeitsplatz und in Bildungseinrichtungen, es sei denn, die Verwendung des KI-Systems soll aus medizinischen Gründen oder Sicherheitsgründen eingeführt oder auf den Markt gebracht werden",
+      "plain_info": "Verboten ist KI, die am Arbeitsplatz oder in Schulen/Unis die Emotionen von Mitarbeitern oder Schülern erkennt und auswertet. AUSNAHME: Medizinische oder sicherheitsrelevante Zwecke (z.B. Müdigkeitserkennung bei Berufspiloten zur Unfallverhütung)."
+    },
+    {
+      "key": "biometric_categorization_sensitive",
+      "lit": "g",
+      "citation": "Art. 5 Abs. 1 lit. g KI-VO",
+      "short_title": "Biometrische Kategorisierung nach sensiblen Merkmalen",
+      "intro": "Folgende Praktiken im KI-Bereich sind verboten:",
+      "legal_text": "das Inverkehrbringen, die Inbetriebnahme für diesen spezifischen Zweck oder die Verwendung von Systemen zur biometrischen Kategorisierung, mit denen natürliche Personen individuell auf der Grundlage ihrer biometrischen Daten kategorisiert werden, um ihre Rasse, ihre politischen Einstellungen, ihre Gewerkschaftszugehörigkeit, ihre religiösen oder weltanschaulichen Überzeugungen, ihr Sexualleben oder ihre sexuelle Ausrichtung zu erschliessen oder abzuleiten; dieses Verbot gilt nicht für die Kennzeichnung oder Filterung rechtmäßig erworbener biometrischer Datensätze, wie z.B. Bilder auf der Grundlage biometrischer Daten oder die Kategorisierung biometrischer Daten im Bereich der Strafverfolgung",
+      "plain_info": "Verboten ist KI, die aus biometrischen Daten (Gesicht, Stimme, Gang) auf sensible persönliche Merkmale schliesst: Ethnische Herkunft, politische Meinung, Gewerkschaftsmitgliedschaft, Religion, sexuelle Orientierung. AUSNAHME: Strafverfolgung unter engen Voraussetzungen."
+    },
+    {
+      "key": "realtime_biometric",
+      "lit": "h",
+      "citation": "Art. 5 Abs. 1 lit. h KI-VO",
+      "short_title": "Biometrische Echtzeit-Fernidentifizierung in öffentlichen Räumen",
+      "intro": "Folgende Praktiken im KI-Bereich sind verboten:",
+      "legal_text": "die Verwendung biometrischer Echtzeit-Fernidentifizierungssysteme in öffentlich zugänglichen Räumen zu Strafverfolgungszwecken, außer wenn und insoweit dies im Hinblick auf eines der folgenden Ziele unbedingt erforderlich ist: i) gezielte Suche nach bestimmten Opfern von Entführung, Menschenhandel oder sexueller Ausbeutung sowie die Suche nach vermissten Personen; ii) Abwenden einer konkreten, erheblichen und unmittelbaren Gefahr für das Leben oder die körperliche Unversehrtheit natürlicher Personen oder einer tatsächlichen und bestehenden oder tatsächlichen und vorhersehbaren Gefahr eines Terroranschlags; iii) Aufspüren oder Identifizieren einer Person, die der Begehung einer Straftat verdächtigt wird",
+      "plain_info": "Grundsätzlich verboten ist die Echtzeit-Gesichtserkennung in öffentlichen Räumen (Bahnhöfe, Einkaufszentren, Strassen) durch die Polizei. Es gibt nur SEHR enge Ausnahmen: Suche nach Entführungsopfern, akute Terrorgefahr, Fahndung nach Schwerkriminellen. Jede Nutzung braucht eine richterliche Genehmigung. Für Unternehmen ist dies praktisch immer verboten."
+    }
+  ],
+  "ART6_HIGH_RISK": {
+    "abs1": {
+      "citation": "Art. 6 Abs. 1 KI-VO",
+      "title": "Hochrisiko durch Produktsicherheit (Anhang I)",
+      "intro": "Ein KI-System gilt als Hochrisiko-KI-System, wenn die folgenden Bedingungen erfüllt sind:",
+      "legal_text": "Ungeachtet dessen, ob ein KI-System unabhängig von den unter den Buchstaben a und b genannten Produkten in Verkehr gebracht oder in Betrieb genommen wird, gilt es als Hochrisiko-KI-System, wenn die beiden folgenden Bedingungen erfüllt sind: a) das KI-System soll als Sicherheitsbauteil eines unter die in Anhang I aufgeführten Harmonisierungsrechtsvorschriften der Union fallenden Produkts verwendet werden oder das KI-System ist selbst ein solches Produkt; b) das Produkt, dessen Sicherheitsbauteil gemäß Buchstabe a das KI-System ist, oder das KI-System selbst als Produkt muss einer Konformitätsbewertung durch Dritte im Hinblick auf das Inverkehrbringen oder die Inbetriebnahme dieses Produkts gemäß den in Anhang I aufgeführten Harmonisierungsrechtsvorschriften der Union unterzogen werden.",
+      "plain_info": "Ein KI-System ist automatisch Hochrisiko, wenn es ein Sicherheitsbauteil in einem regulierten Produkt ist (z.B. Medizingerät, Maschine, Spielzeug, Aufzug) UND dieses Produkt eine Konformitätsbewertung durch Dritte braucht. Denken Sie an KI in autonomen Fahrzeugen, medizinischen Diagnosegeräten oder industriellen Robotern."
+    },
+    "abs3_exception": {
+      "citation": "Art. 6 Abs. 3 KI-VO",
+      "title": "Ausnahme von der Hochrisiko-Einstufung",
+      "intro": "Abweichend davon gilt ein in Anhang III genanntes KI-System nicht als hochriskant, wenn:",
+      "legal_text": "Abweichend von Absatz 2 gilt ein in Anhang III genanntes KI-System nicht als hochriskant, wenn es kein erhebliches Risiko der Beeinträchtigung in Bezug auf die Gesundheit, Sicherheit oder Grundrechte natürlicher Personen birgt, indem es unter anderem nicht das Ergebnis der Entscheidungsfindung wesentlich beeinflusst. Unterabsatz 1 gilt, wenn eine der folgenden Bedingungen erfüllt ist: a) das KI-System ist dazu bestimmt, eine eng gefasste Verfahrensaufgabe durchzuführen; b) das KI-System ist dazu bestimmt, das Ergebnis einer zuvor abgeschlossenen menschlichen Tätigkeit zu verbessern; c) das KI-System ist dazu bestimmt, Entscheidungsmuster oder Abweichungen von früheren Entscheidungsmustern zu erkennen, und ist nicht dazu gedacht, die zuvor abgeschlossene menschliche Bewertung ohne eine angemessene menschliche Überprüfung zu ersetzen oder zu beeinflussen; oder d) das KI-System ist dazu bestimmt, eine vorbereitende Aufgabe für eine Bewertung durchzuführen, die für die Zwecke der in Anhang III aufgeführten Anwendungsälle relevant ist.",
+      "intro_profiling": "Ungeachtet dessen gilt ein in Anhang III aufgeführtes KI-System immer dann als hochriskant, wenn:",
+      "profiling_override": "Ungeachtet des Unterabsatzes 1 gilt ein in Anhang III aufgeführtes KI-System immer dann als hochriskant, wenn es ein Profiling natürlicher Personen vornimmt.",
+      "plain_info": "WICHTIG: Auch wenn ein KI-System thematisch unter Anhang III fällt, ist es NICHT hochriskant, wenn es nur eine untergeordnete Hilfstätigkeit ausführt und Entscheidungen nicht wesentlich beeinflusst. Beispiele: Reine Rechtschreibkorrektur in einem HR-Tool, automatische Vorsortierung von E-Mails ohne Entscheidungswirkung. ABER: Sobald das System ein Profiling natürlicher Personen vornimmt, ist es IMMER hochriskant - ohne Ausnahme!"
+    }
+  },
+  "ANNEX_III_CATEGORIES": [
+    {
+      "nr": 1,
+      "title": "Biometrie",
+      "citation_base": "Anhang III Nr. 1 KI-VO",
+      "condition": "soweit ihr Einsatz nach einschlägigem Unionsrecht oder nationalem Recht zugelassen ist",
+      "subcategories": [
+        {
+          "sub": "a",
+          "citation": "Anhang III Nr. 1 lit. a KI-VO",
+          "title": "Biometrische Fernidentifizierungssysteme",
+          "text": "Biometrische Fernidentifizierungssysteme. Dazu gehören nicht KI-Systeme, die bestimmungsgemäß für die biometrische Verifizierung, deren einziger Zweck darin besteht, zu bestätigen, dass eine bestimmte natürliche Person die Person ist, für die sie sich ausgibt, verwendet werden sollen.",
+          "plain_info": "Betrifft Systeme, die Personen anhand biometrischer Daten (Gesicht, Fingerabdruck, Iris) aus der Ferne identifizieren - also 'Wer ist diese Person?'. NICHT betroffen: Einfache Verifizierung ('Ist diese Person wirklich Max Mustermann?'), z.B. Face-ID am Smartphone.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Biometrie gilt:"
+        },
+        {
+          "sub": "b",
+          "citation": "Anhang III Nr. 1 lit. b KI-VO",
+          "title": "Biometrische Kategorisierung nach sensiblen Merkmalen",
+          "text": "KI-Systeme, die bestimmungsgemäß für die biometrische Kategorisierung nach sensiblen oder geschützten Attributen oder Merkmalen auf der Grundlage von Rückschlüssen auf diese Attribute oder Merkmale verwendet werden sollen",
+          "plain_info": "KI, die aus biometrischen Daten auf sensible Eigenschaften schliesst (Ethnie, Religion etc.). Nicht verwechseln mit dem Totalverbot in Art. 5 lit. g - hier geht es um Systeme, die zwar kategorisieren, aber nicht zum Zweck der Diskriminierung.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Biometrie gilt:"
+        },
+        {
+          "sub": "c",
+          "citation": "Anhang III Nr. 1 lit. c KI-VO",
+          "title": "Emotionserkennung",
+          "text": "KI-Systeme, die bestimmungsgemäß zur Emotionserkennung verwendet werden sollen.",
+          "plain_info": "Systeme, die Emotionen erkennen (Freude, Wut, Trauer etc.) aus Gesichtsausdrücken, Stimme oder Körperhaltung. Nicht verwechseln mit dem Verbot in Art. 5 lit. f (Arbeitsplatz/Bildung) - hier geht es um erlaubte Anwendungsbereiche.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Biometrie gilt:"
+        }
+      ]
+    },
+    {
+      "nr": 2,
+      "title": "Kritische Infrastruktur",
+      "citation_base": "Anhang III Nr. 2 KI-VO",
+      "condition": "",
+      "subcategories": [
+        {
+          "sub": "",
+          "citation": "Anhang III Nr. 2 KI-VO",
+          "title": "Sicherheitsbauteile kritischer Infrastruktur",
+          "text": "KI-Systeme, die bestimmungsgemäß als Sicherheitsbauteile im Rahmen der Verwaltung und des Betriebs kritischer digitaler Infrastruktur, des Strassenverkehrs oder der Wasser-, Gas-, Wärme- oder Stromversorgung verwendet werden sollen",
+          "plain_info": "KI in der Steuerung von Stromnetzen, Wasserversorgung, Gasnetzen, Verkehrsleitsystemen oder kritischer IT-Infrastruktur. Ein Ausfall könnte weitreichende Folgen für die Bevölkerung haben.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Kritische Infrastruktur gilt:"
+        }
+      ]
+    },
+    {
+      "nr": 3,
+      "title": "Allgemeine und berufliche Bildung",
+      "citation_base": "Anhang III Nr. 3 KI-VO",
+      "condition": "",
+      "subcategories": [
+        {
+          "sub": "a",
+          "citation": "Anhang III Nr. 3 lit. a KI-VO",
+          "title": "Zugangs-/Zulassungsentscheidungen",
+          "text": "KI-Systeme, die bestimmungsgemäß zur Feststellung des Zugangs oder der Zulassung oder zur Zuweisung natürlicher Personen zu Einrichtungen aller Ebenen der allgemeinen und beruflichen Bildung verwendet werden sollen",
+          "plain_info": "KI, die entscheidet, wer an einer Schule, Uni oder Ausbildung zugelassen wird. Z.B. automatisierte Bewerbungsauswahl für Studienplätze.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Allgemeine und berufliche Bildung gilt:"
+        },
+        {
+          "sub": "b",
+          "citation": "Anhang III Nr. 3 lit. b KI-VO",
+          "title": "Bewertung von Lernergebnissen",
+          "text": "KI-Systeme, die bestimmungsgemäß für die Bewertung von Lernergebnissen verwendet werden sollen, einschließlich des Falles, dass diese Ergebnisse dazu dienen, den Lernprozess natürlicher Personen in Einrichtungen oder Programmen aller Ebenen der allgemeinen und beruflichen Bildung zu steuern",
+          "plain_info": "KI-gestützte Benotung oder Bewertung von Prüfungsleistungen, auch adaptive Lernsysteme, die den Lernpfad basierend auf Leistungsbewertungen anpassen.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Allgemeine und berufliche Bildung gilt:"
+        },
+        {
+          "sub": "c",
+          "citation": "Anhang III Nr. 3 lit. c KI-VO",
+          "title": "Bewertung des Bildungsniveaus",
+          "text": "KI-Systeme, die bestimmungsgemäß zum Zweck der Bewertung des angemessenen Bildungsniveaus, das eine Person im Rahmen von oder innerhalb von Einrichtungen aller Ebenen der allgemeinen und beruflichen Bildung erhalten wird oder zu denen sie Zugang erhalten wird, verwendet werden sollen",
+          "plain_info": "KI, die entscheidet, welches Bildungsniveau für eine Person angemessen ist - z.B. Einstufungstests, die über Förderschule vs. Gymnasium entscheiden.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Allgemeine und berufliche Bildung gilt:"
+        },
+        {
+          "sub": "d",
+          "citation": "Anhang III Nr. 3 lit. d KI-VO",
+          "title": "Überwachung bei Prüfungen",
+          "text": "KI-Systeme, die bestimmungsgemäß zur Überwachung und Erkennung von verbotenem Verhalten von Schülern bei Prüfungen im Rahmen von oder innerhalb von Einrichtungen aller Ebenen der allgemeinen und beruflichen Bildung verwendet werden sollen",
+          "plain_info": "KI-gestützte Prüfungsüberwachung (Proctoring), die erkennt, ob Schüler/Studenten bei Prüfungen schummeln - z.B. durch Blickerfassung, Bewegungsanalyse oder Bildschirmanalyse.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Allgemeine und berufliche Bildung gilt:"
+        }
+      ]
+    },
+    {
+      "nr": 4,
+      "title": "Beschäftigung, Personalmanagement und Zugang zur Selbstständigkeit",
+      "citation_base": "Anhang III Nr. 4 KI-VO",
+      "condition": "",
+      "subcategories": [
+        {
+          "sub": "a",
+          "citation": "Anhang III Nr. 4 lit. a KI-VO",
+          "title": "Einstellung und Auswahl",
+          "text": "KI-Systeme, die bestimmungsgemäß für die Einstellung oder Auswahl natürlicher Personen verwendet werden sollen, insbesondere um gezielte Stellenanzeigen zu schalten, Bewerbungen zu sichten oder zu filtern und Bewerber zu bewerten",
+          "plain_info": "KI im Recruiting: Automatisches CV-Screening, KI-gesützte Vorauswahl von Bewerbern, automatisierte Video-Interviews mit KI-Bewertung, personalisierte Stellenanzeigen basierend auf KI-Profiling.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Beschäftigung, Personalmanagement und Zugang zur Selbstständigkeit gilt:"
+        },
+        {
+          "sub": "b",
+          "citation": "Anhang III Nr. 4 lit. b KI-VO",
+          "title": "Arbeitsbedingungen, Beförderung, Kündigung",
+          "text": "KI-Systeme, die bestimmungsgemäß für Entscheidungen, die die Bedingungen von Arbeitsverhältnissen, Beförderungen und Kündigungen von Arbeitsvertragsverhältnissen beeinflussen, für die Zuweisung von Aufgaben aufgrund des individuellen Verhaltens oder persönlicher Merkmale oder Eigenschaften oder für die Beobachtung und Bewertung der Leistung und des Verhaltens von Personen in solchen Beschäftigungsverhältnissen verwendet werden soll",
+          "plain_info": "KI, die Personalentscheidungen beeinflusst: Leistungsbewertungen, Beförderungsvorschläge, Kündigungsentscheidungen, Aufgabenzuweisung basierend auf KI-Analyse. Auch Mitarbeiterüberwachungs-Software mit KI-Auswertung fällt hierunter.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Beschäftigung, Personalmanagement und Zugang zur Selbstständigkeit gilt:"
+        }
+      ]
+    },
+    {
+      "nr": 5,
+      "title": "Zugang zu grundlegenden Diensten und Leistungen",
+      "citation_base": "Anhang III Nr. 5 KI-VO",
+      "condition": "",
+      "subcategories": [
+        {
+          "sub": "a",
+          "citation": "Anhang III Nr. 5 lit. a KI-VO",
+          "title": "Öffentliche Unterstützungsleistungen",
+          "text": "KI-Systeme, die bestimmungsgemäß von Behörden oder im Namen von Behörden verwendet werden sollen, um zu beurteilen, ob natürliche Personen Anspruch auf grundlegende öffentliche Unterstützungsleistungen und -dienste, einschließlich Gesundheitsdiensten, haben und ob solche Leistungen und Dienste zu gewähren, einzuschränken, zu widerrufen oder zurückzufordern sind",
+          "plain_info": "KI, die für Behörden entscheidet, ob jemand Sozialleistungen, Wohngeld, Arbeitslosengeld oder Gesundheitsleistungen bekommt.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Zugang zu grundlegenden Diensten und Leistungen gilt:"
+        },
+        {
+          "sub": "b",
+          "citation": "Anhang III Nr. 5 lit. b KI-VO",
+          "title": "Kreditwürdigkeitsprüfung und Bonitätsbewertung",
+          "text": "KI-Systeme, die bestimmungsgemäß für die Kreditwürdigkeitsprüfung und Bonitätsbewertung natürlicher Personen verwendet werden sollen, mit Ausnahme von KI-Systemen, die zur Aufdeckung von Finanzbetrug verwendet werden",
+          "plain_info": "KI-basierte Kreditscoring-Systeme, die die Kreditwürdigkeit von Personen bewerten (z.B. SCHUFA mit KI, automatisierte Kreditentscheidungen). AUSNAHME: Reine Betrugserkennung ist kein Hochrisiko.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Zugang zu grundlegenden Diensten und Leistungen gilt:"
+        },
+        {
+          "sub": "c",
+          "citation": "Anhang III Nr. 5 lit. c KI-VO",
+          "title": "Risikobewertung bei Lebens-/Krankenversicherungen",
+          "text": "KI-Systeme, die bestimmungsgemäß für die Risikobewertung und Preisbildung in Bezug auf natürliche Personen im Fall von Lebens- und Krankenversicherungen verwendet werden sollen",
+          "plain_info": "KI, die das Risiko und den Preis von Lebens- oder Krankenversicherungen für einzelne Personen berechnet. Besonders sensibel, da Fehleinschätzungen den Zugang zu existenziellem Versicherungsschutz gefährden können.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Zugang zu grundlegenden Diensten und Leistungen gilt:"
+        },
+        {
+          "sub": "d",
+          "citation": "Anhang III Nr. 5 lit. d KI-VO",
+          "title": "Notrufe und Rettungsdienste",
+          "text": "KI-Systeme, die bestimmungsgemäß zur Bewertung und Klassifizierung von Notrufen von natürlichen Personen oder für die Entsendung oder Priorisierung des Einsatzes von Not- und Rettungsdiensten, einschließlich Polizei, Feuerwehr und medizinischer Nothilfe, sowie für Systeme für die Triage von Patienten bei der Notfallversorgung verwendet werden sollen",
+          "plain_info": "KI in Notrufzentralen oder Rettungsleitstellen, die Notrufe priorisiert, Einsatzkräfte zuweist oder in der Notaufnahme die Behandlungsreihenfolge festlegt (Triage).",
+          "intro": "Als Hochrisiko-KI-System im Bereich Zugang zu grundlegenden Diensten und Leistungen gilt:"
+        }
+      ]
+    },
+    {
+      "nr": 6,
+      "title": "Strafverfolgung",
+      "citation_base": "Anhang III Nr. 6 KI-VO",
+      "condition": "soweit ihr Einsatz nach einschlägigem Unionsrecht oder nationalem Recht zugelassen ist",
+      "subcategories": [
+        {
+          "sub": "a",
+          "citation": "Anhang III Nr. 6 lit. a KI-VO",
+          "title": "Opferrisiko-Bewertung",
+          "text": "KI-Systeme, die bestimmungsgemäß von Strafverfolgungsbehörden oder in deren Namen zur Bewertung des Risikos einer natürlichen Person, zum Opfer von Straftaten zu werden, verwendet werden sollen",
+          "plain_info": "KI, die einschätzt, wie wahrscheinlich eine Person Opfer einer Straftat wird.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Strafverfolgung gilt:"
+        },
+        {
+          "sub": "b",
+          "citation": "Anhang III Nr. 6 lit. b KI-VO",
+          "title": "Lügendetektoren",
+          "text": "KI-Systeme, die bestimmungsgemäß von Strafverfolgungsbehörden oder in deren Namen als Lügendetektoren oder ähnliche Instrumente verwendet werden sollen",
+          "plain_info": "KI-basierte Lügendetektoren oder Wahrheitserkennung bei Vernehmungen.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Strafverfolgung gilt:"
+        },
+        {
+          "sub": "c",
+          "citation": "Anhang III Nr. 6 lit. c KI-VO",
+          "title": "Beweismittelbewertung",
+          "text": "KI-Systeme, die bestimmungsgemäß von Strafverfolgungsbehörden zur Bewertung der Zuverlässigkeit von Beweismitteln im Zuge der Ermittlung oder Verfolgung von Straftaten verwendet werden sollen",
+          "plain_info": "KI, die die Glaubwürdigkeit oder Zuverlässigkeit von Beweisen bewertet.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Strafverfolgung gilt:"
+        },
+        {
+          "sub": "d",
+          "citation": "Anhang III Nr. 6 lit. d KI-VO",
+          "title": "Rückfallrisiko-Bewertung",
+          "text": "KI-Systeme, die bestimmungsgemäß zur Bewertung des Risikos, dass eine natürliche Person eine Straftat begeht oder erneut begeht, nicht nur auf der Grundlage der Erstellung von Profilen natürlicher Personen verwendet werden sollen",
+          "plain_info": "KI zur Rückfall-Prognose bei Straftätern. Wichtig: Darf nicht NUR auf Profiling basieren (das wäre Art. 5 lit. d - verboten), sondern muss auch andere Faktoren einbeziehen.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Strafverfolgung gilt:"
+        },
+        {
+          "sub": "e",
+          "citation": "Anhang III Nr. 6 lit. e KI-VO",
+          "title": "Profiling bei Strafverfolgung",
+          "text": "KI-Systeme, die bestimmungsgemäß zur Erstellung von Profilen natürlicher Personen im Zuge der Aufdeckung, Ermittlung oder Verfolgung von Straftaten verwendet werden sollen",
+          "plain_info": "KI-gestütztes Profiling im Rahmen von Strafermittlungen.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Strafverfolgung gilt:"
+        }
+      ]
+    },
+    {
+      "nr": 7,
+      "title": "Migration, Asyl und Grenzkontrolle",
+      "citation_base": "Anhang III Nr. 7 KI-VO",
+      "condition": "soweit ihr Einsatz nach einschlägigem Unionsrecht oder nationalem Recht zugelassen ist",
+      "subcategories": [
+        {
+          "sub": "a",
+          "citation": "Anhang III Nr. 7 lit. a KI-VO",
+          "title": "Lügendetektoren (Migration)",
+          "text": "KI-Systeme, die bestimmungsgemäß von zuständigen Behörden als Lügendetektoren verwendet werden sollen oder ähnliche Instrumente",
+          "plain_info": "KI-Lügendetektoren an Grenzen oder bei Asylverfahren.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Migration, Asyl und Grenzkontrolle gilt:"
+        },
+        {
+          "sub": "b",
+          "citation": "Anhang III Nr. 7 lit. b KI-VO",
+          "title": "Risikobewertung bei Einreise",
+          "text": "KI-Systeme, die bestimmungsgemäß zur Bewertung eines Risikos verwendet werden sollen, einschließlich eines Sicherheitsrisikos, eines Risikos der irregulären Einwanderung oder eines Gesundheitsrisikos, das von einer natürlichen Person ausgeht, die in das Hoheitsgebiet eines Mitgliedstaats einzureisen beabsichtigt oder eingereist ist",
+          "plain_info": "KI-Risikobewertung für Einreisende und Migranten.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Migration, Asyl und Grenzkontrolle gilt:"
+        },
+        {
+          "sub": "c",
+          "citation": "Anhang III Nr. 7 lit. c KI-VO",
+          "title": "Asyl-/Visumanträge",
+          "text": "KI-Systeme, die bestimmungsgemäß verwendet werden sollen, um zuständige Behörden bei der Prüfung von Asyl- und Visumanträgen sowie Aufenthaltstiteln und damit verbundenen Beschwerden zu unterstützen",
+          "plain_info": "KI, die Behörden bei der Prüfung von Asyl-, Visum- und Aufenthaltsanträgen hilft.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Migration, Asyl und Grenzkontrolle gilt:"
+        },
+        {
+          "sub": "d",
+          "citation": "Anhang III Nr. 7 lit. d KI-VO",
+          "title": "Identifizierung im Migrationskontext",
+          "text": "KI-Systeme, die bestimmungsgemäß im Zusammenhang mit Migration, Asyl oder Grenzkontrolle zum Zwecke der Aufdeckung, Anerkennung oder Identifizierung natürlicher Personen verwendet werden sollen, mit Ausnahme der Überprüfung von Reisedokumenten",
+          "plain_info": "KI zur Identifizierung von Personen im Migrationskontext. AUSNAHME: Einfache Reisedokumenten-Prüfung.",
+          "intro": "Als Hochrisiko-KI-System im Bereich Migration, Asyl und Grenzkontrolle gilt:"
+        }
+      ]
+    },
+    {
+      "nr": 8,
+      "title": "Rechtspflege und demokratische Prozesse",
+      "citation_base": "Anhang III Nr. 8 KI-VO",
+      "condition": "",
+      "subcategories": [
+        {
+          "sub": "a",
+          "citation": "Anhang III Nr. 8 lit. a KI-VO",
+          "title": "Unterstützung der Justiz",
+          "text": "KI-Systeme, die bestimmungsgemäß von einer oder im Namen einer Justizbehörde verwendet werden sollen, um eine Justizbehörde bei der Ermittlung und Auslegung von Sachverhalten und Rechtsvorschriften und bei der Anwendung des Rechts auf konkrete Sachverhalte zu unterstützen, oder die auf ähnliche Weise für die alternative Streitbeilegung genutzt werden sollen",
+          "plain_info": "KI, die Richtern oder Schiedsgerichten bei der Rechtsanwendung hilft. Auch KI-gestützte alternative Streitbeilegung (z.B. automatisierte Mediation).",
+          "intro": "Als Hochrisiko-KI-System im Bereich Rechtspflege und demokratische Prozesse gilt:"
+        },
+        {
+          "sub": "b",
+          "citation": "Anhang III Nr. 8 lit. b KI-VO",
+          "title": "Beeinflussung von Wahlen/Referenden",
+          "text": "KI-Systeme, die bestimmungsgemäß verwendet werden sollen, um das Ergebnis einer Wahl oder eines Referendums oder das Wahlverhalten natürlicher Personen bei der Ausübung ihres Wahlrechts bei einer Wahl oder einem Referendum zu beeinflussen. Dazu gehören nicht KI-Systeme, deren Ausgaben natürliche Personen nicht direkt ausgesetzt sind, wie Instrumente zur Organisation, Optimierung oder Strukturierung politischer Kampagnen in administrativer oder logistischer Hinsicht.",
+          "plain_info": "KI, die gezielt Wahlverhalten beeinflusst. NICHT darunter fallen reine Kampagnen-Logistik-Tools (z.B. Termin- oder Routenplanung für Wahlkampf).",
+          "intro": "Als Hochrisiko-KI-System im Bereich Rechtspflege und demokratische Prozesse gilt:"
+        }
+      ]
+    }
+  ],
+  "ART25_ROLE_SHIFT": {
+    "citation": "Art. 25 KI-VO",
+    "title": "Verantwortlichkeiten entlang der KI-Wertschöpfungskette",
+    "abs1_conditions": [
+      {
+        "lit": "a",
+        "citation": "Art. 25 Abs. 1 lit. a KI-VO",
+        "text": "wenn sie ein bereits in Verkehr gebrachtes oder in Betrieb genommenes Hochrisiko-KI-System mit ihrem Namen oder ihrer Handelsmarke versehen",
+        "plain_info": "Wenn Sie ein fremdes KI-System unter Ihrem eigenen Firmennamen/Marke vertreiben, werden Sie rechtlich zum Anbieter - mit allen Anbieterpflichten."
+      },
+      {
+        "lit": "b",
+        "citation": "Art. 25 Abs. 1 lit. b KI-VO",
+        "text": "wenn sie eine wesentliche Veränderung eines Hochrisiko-KI-Systems, das bereits in Verkehr gebracht oder in Betrieb genommen wurde, so vornehmen, dass es weiterhin ein Hochrisiko-KI-System gemäß Artikel 6 bleibt",
+        "plain_info": "Wenn Sie ein externes Hochrisiko-System wesentlich verändern (nicht nur konfigurieren, sondern tiefgreifend modifizieren), werden Sie zum neuen Anbieter."
+      },
+      {
+        "lit": "c",
+        "citation": "Art. 25 Abs. 1 lit. c KI-VO",
+        "text": "wenn sie die Zweckbestimmung eines KI-Systems, einschließlich eines KI-Systems mit allgemeinem Verwendungszweck, das nicht als hochriskant eingestuft wurde und bereits in Verkehr gebracht oder in Betrieb genommen wurde, so verändern, dass das betreffende KI-System zu einem Hochrisiko-KI-System im Sinne von Artikel 6 wird",
+        "plain_info": "Wenn Sie ein nicht-hochriskantes System für einen Hochrisiko-Zweck einsetzen (z.B. ein allgemeines LLM für Kreditentscheidungen), werden Sie zum Anbieter des Hochrisiko-Systems."
+      }
+    ]
+  },
+  "ART50_TRANSPARENCY": [
+    {
+      "key": "direct_interaction",
+      "abs": 1,
+      "citation": "Art. 50 Abs. 1 KI-VO",
+      "title": "Direkte Interaktion mit Personen",
+      "legal_text": "Die Anbieter stellen sicher, dass KI-Systeme, die für die direkte Interaktion mit natürlichen Personen bestimmt sind, so konzipiert und entwickelt werden, dass die betreffenden natürlichen Personen informiert werden, dass sie mit einem KI-System interagieren, es sei denn, dies ist aus Sicht einer angemessen informierten, aufmerksamen und verständigen natürlichen Person aufgrund der Umstände und des Kontexts der Nutzung offensichtlich.",
+      "plain_info": "Wenn ein KI-System direkt mit Menschen kommuniziert (z.B. ein Chatbot), müssen die Nutzer informiert werden, dass sie mit einer KI sprechen. Ausnahme: Es ist offensichtlich (z.B. ein Sprachassistent, der sich als KI vorstellt).",
+      "intro": "Anbieter stellen sicher, dass KI-Systeme, die für die direkte Interaktion mit natürlichen Personen bestimmt sind, so konzipiert und entwickelt werden, dass:"
+    },
+    {
+      "key": "synthetic_content",
+      "abs": 2,
+      "citation": "Art. 50 Abs. 2 KI-VO",
+      "title": "Synthetische Inhalte (Audio/Bild/Video/Text)",
+      "legal_text": "Anbieter von KI-Systemen, einschließlich KI-Systemen mit allgemeinem Verwendungszweck, die synthetische Audio-, Bild-, Video- oder Textinhalte erzeugen, stellen sicher, dass die Ausgaben des KI-Systems in einem maschinenlesbaren Format gekennzeichnet und als künstlich erzeugt oder manipuliert erkennbar sind.",
+      "plain_info": "KI-generierte Inhalte (Bilder, Videos, Audio, Texte) müssen maschinenlesbar als KI-generiert gekennzeichnet werden - z.B. durch Wasserzeichen oder Metadaten. Betrifft alle GenAI-Tools wie ChatGPT, DALL-E, Midjourney, etc.",
+      "intro": "Anbieter von KI-Systemen, die synthetische Audio-, Bild-, Video- oder Textinhalte erzeugen, stellen sicher, dass:"
+    },
+    {
+      "key": "emotion_recognition",
+      "abs": 3,
+      "citation": "Art. 50 Abs. 3 KI-VO",
+      "title": "Emotionserkennung / Biometrische Kategorisierung",
+      "legal_text": "Die Betreiber eines Emotionserkennungssystems oder eines Systems zur biometrischen Kategorisierung informieren die davon betroffenen natürlichen Personen über den Betrieb des Systems und verarbeiten personenbezogene Daten gemäß den Verordnungen (EU) 2016/679 und (EU) 2018/1725 und der Richtlinie (EU) 2016/680.",
+      "plain_info": "Wer Emotionserkennung oder biometrische Kategorisierung einsetzt, MUSS die betroffenen Personen darüber informieren. Zuätzlich gelten die DSGVO-Anforderungen.",
+      "intro": "Die Betreiber eines Emotionserkennungssystems oder eines Systems zur biometrischen Kategorisierung stellen sicher, dass:"
+    },
+    {
+      "key": "deepfake",
+      "abs": 4,
+      "citation": "Art. 50 Abs. 4 KI-VO",
+      "title": "Deepfakes",
+      "legal_text": "Betreiber eines KI-Systems, das Bild-, Ton- oder Videoinhalte erzeugt oder manipuliert, die ein Deepfake sind, müssen offenlegen, dass die Inhalte künstlich erzeugt oder manipuliert wurden. Diese Pflicht gilt nicht, wenn die Verwendung zur Aufdeckung, Verhütung, Ermittlung oder Verfolgung von Straftaten gesetzlich zugelassen ist.",
+      "plain_info": "Wer Deepfakes erstellt (z.B. Gesichter in Videos austauscht oder Stimmen klont), muss offenlegen, dass die Inhalte KI-generiert/manipuliert sind. Bei künstlerischen oder satirischen Werken genügt ein dezenter Hinweis.",
+      "intro": "Betreiber eines KI-Systems, das Bild-, Ton- oder Videoinhalte erzeugt oder manipuliert, die ein Deepfake sind, müssen offenlegen, dass:"
+    },
+    {
+      "key": "public_interest_text",
+      "abs": "4_uabs2",
+      "citation": "Art. 50 Abs. 4 UAbs. 2 KI-VO",
+      "title": "KI-generierte Texte für die Öffentlichkeit",
+      "legal_text": "Betreiber eines KI-Systems, das Text erzeugt oder manipuliert, der veröffentlicht wird, um die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse zu informieren, müssen offenlegen, dass der Text künstlich erzeugt oder manipuliert wurde.",
+      "plain_info": "KI-generierte Nachrichtenartikel, Pressemitteilungen oder öffentliche Informationstexte müssen als KI-generiert gekennzeichnet werden. Ausnahme: Wenn ein Mensch die redaktionelle Verantwortung trägt und den Text überprüft hat.",
+      "intro": "Betreiber eines KI-Systems, das Text erzeugt oder manipuliert, der veröffentlicht wird, um die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse zu informieren, müssen offenlegen, dass:"
+    }
+  ],
+  "ART51_GPAI": {
+    "classification": {
+      "citation": "Art. 51 Abs. 1 KI-VO",
+      "title": "Einstufung als GPAI mit systemischem Risiko",
+      "intro": "Ein KI-Modell mit allgemeinem Verwendungszweck wird als KI-Modell mit allgemeinem Verwendungszweck mit systemischem Risiko eingestuft, wenn:",
+      "legal_text": "Ein KI-Modell mit allgemeinem Verwendungszweck wird als KI-Modell mit allgemeinem Verwendungszweck mit systemischem Risiko eingestuft, wenn eine der folgenden Bedingungen erfüllt ist: a) Es verfügt über Fähigkeiten mit hohem Wirkungsgrad, die mithilfe geeigneter technischer Instrumente und Methoden, einschließlich Indikatoren und Benchmarks, bewertet werden; b) einem von der Kommission getroffenen Entscheidung zufolge verfügt es über Fähigkeiten oder eine Wirkung, die denen gemäß Buchstabe a entsprechen."
+    },
+    "flops_threshold": {
+      "citation": "Art. 51 Abs. 2 KI-VO",
+      "title": "Schwellenwert für systemisches Risiko",
+      "intro": "Bei einem KI-Modell mit allgemeinem Verwendungszweck wird angenommen, dass es über Fähigkeiten mit hohem Wirkungsgrad verfügt, wenn:",
+      "legal_text": "Bei einem KI-Modell mit allgemeinem Verwendungszweck wird angenommen, dass es über Fähigkeiten mit hohem Wirkungsgrad verfügt, wenn die kumulierte Menge der für sein Training verwendeten Berechnungen, gemessen in Gleitkommaoperationen, mehr als 10^25 beträgt.",
+      "plain_info": "Die EU hat einen konkreten Schwellenwert festgelegt: Wenn das Training eines Modells mehr als 10 Quadrillionen (10^25) Rechenoperationen benötigte, gilt es automatisch als systemisch riskant. Das betrifft derzeit nur die größten Modelle wie GPT-4, Gemini Ultra oder ähnliche."
+    }
+  }
+}
