@@ -54,3 +54,7 @@ venv.bak/
 # Local JSON classification files (exclude root level json, keep src/data ones)
 *.json
 !src/data/*.json
+
+# Internal organization documentation (do not push)
+decision_logic.md
+
