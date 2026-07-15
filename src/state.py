@@ -75,6 +75,7 @@ DEFAULT_STATE = {
         "transparency": {
             "direct_interaction": None,
             "synthetic_content": None,
+            "content_generation_mode": None,
             "emotion_recognition": None,
             "biometric_categorization": None,
             "deepfake": None,

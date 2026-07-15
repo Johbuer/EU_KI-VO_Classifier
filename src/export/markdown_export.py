@@ -187,6 +187,11 @@ def generate_markdown(data=None):
     md.append("### Transparenzanforderungen (Art. 50)")
     md.append(f"- **Direkte Interaktion mit Personen:** {'Ja' if transp.get('direct_interaction') else 'Nein'}")
     md.append(f"- **Erzeugung synthetischer Inhalte:** {'Ja' if transp.get('synthetic_content') else 'Nein'}")
+    gen_mode = transp.get("content_generation_mode")
+    if gen_mode == "extracts_only":
+        md.append("  - *Hinweis: Reine Datenextraktion ohne semantische Veränderung (Ausnahme Art. 50 Abs. 2 KI-VO)*")
+    elif gen_mode == "generates":
+        md.append("  - *System erzeugt eigenständig formulierte Inhalte (Kennzeichnungspflicht Art. 50 Abs. 2)*")
     md.append(f"- **Emotionserkennung:** {'Ja' if transp.get('emotion_recognition') else 'Nein'}")
     md.append(f"- **Biometrische Kategorisierung:** {'Ja' if transp.get('biometric_categorization') else 'Nein'}")
     md.append(f"- **Erzeugung von Deepfakes:** {'Ja' if transp.get('deepfake') else 'Nein'}")
