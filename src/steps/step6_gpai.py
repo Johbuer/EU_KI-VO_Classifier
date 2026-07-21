@@ -58,14 +58,14 @@ def render_step():
 
     elif substep == 1:
         gpai_sys_def = ART3_DEFINITIONS.get("gpai_system", {
-            "citation": "Art. 3 Nr. 66 KI-VO",
-            "text": "„KI-System mit allgemeinem Verwendungszweck“: ein KI-System, das auf einem KI-Modell mit allgemeinem Verwendungszweck beruht und in der Lage ist, einer Vielzahl von Zwecken sowohl für die direkte Verwendung als auch für die Integration in andere KI-Systeme zu dienen.",
-            "plain_info": "Ein GPAI-System beruht auf einem GPAI-Modell, ist aber im Gegensatz zum bloßen Modell eine fertige Anwendung mit Benutzeroberfläche. An den Begriff des GPAI-Systems knüpft die KI-VO keine eigenen Sonderpflichten an (Erwägungsgrund 85 KI-VO); es wird bezüglich Risikoklassen wie ein gewöhnliches KI-System bewertet.",
+            "citation": "Art. 3 Nr. 66 i.V.m. EG 85 KI-VO",
+            "text": "„KI-System mit allgemeinem Verwendungszweck“: ein KI-System, das auf einem KI-Modell mit allgemeinem Verwendungszweck beruht und in der Lage ist, einer Vielzahl von Zwecken sowohl für die direkte Verwendung als auch für die Integration in andere KI-Systeme zu dienen. (Erwägungsgrund 85 KI-VO stellt klar, dass ein solches KI-System ein GPAI-System bleibt, solange es nicht durch technische Maßnahmen auf einen spezifischen Zweck verengt wurde.)",
+            "plain_info": "Gemäß Erwägungsgrund 85 KI-VO bleibt ein KI-System, das auf einem GPAI-Modell beruht, ein GPAI-System, solange es nicht auf einen spezifischen Zweck verengt wurde. An den Begriff 'GPAI-System' knüpft die KI-VO keine eigenständigen Sonderpflichten an; bezüglich Risikoklassen gilt das allgemeine Regeregime (Art. 5, Art. 6, Art. 50 KI-VO).",
             "intro": "Ein KI-System gilt als GPAI-System, wenn:"
         })
 
         question_header(
-            question_text="Gilt das Gesamtsystem als KI-System mit allgemeinem Verwendungszweck (GPAI-System nach Art. 3 Nr. 66 KI-VO)?",
+            question_text="Gilt das Gesamtsystem als KI-System mit allgemeinem Verwendungszweck (GPAI-System nach Art. 3 Nr. 66 i.V.m. EG 85 KI-VO)?",
             citation=gpai_sys_def["citation"]
         )
 

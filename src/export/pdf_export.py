@@ -342,7 +342,7 @@ def generate_pdf(data=None):
         pdf.ln(1)
 
         pdf.set_font("Helvetica", "B", 10)
-        pdf.cell(60, 6, "GPAI-System (Art. 3 Nr. 66):", ln=0)
+        pdf.cell(60, 6, "GPAI-System (Art. 3 Nr. 66 / EG 85):", ln=0)
         pdf.set_font("Helvetica", "", 10)
         if gpai.get("is_gpai_system") is True:
             sys_text = "Ja (Zweckoffenes System / Freitext)"
