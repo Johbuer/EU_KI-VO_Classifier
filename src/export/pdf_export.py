@@ -347,7 +347,7 @@ def generate_pdf(data=None):
         if gpai.get("is_gpai_system") is True:
             sys_text = "Ja (Zweckoffenes System / Freitext)"
         elif gpai.get("is_gpai_system") is False:
-            sys_text = "Nein (Auf spezifischen Zweck verengt)"
+            sys_text = "Nein (Narrow AI / Auf spezifischen Zweck verengt)"
         else:
             sys_text = "N/A"
         pdf.multi_cell(130, 6, sys_text)

@@ -203,7 +203,7 @@ def generate_markdown(data=None):
     md.append(f"- **Basiert auf GPAI-Modell (Art. 3 Nr. 63):** {'Ja' if gpai.get('is_gpai') else 'Nein'}")
     if gpai.get("is_gpai"):
         is_sys = gpai.get("is_gpai_system")
-        sys_status = "Ja (Zweckoffenes System / Freitext)" if is_sys is True else ("Nein (Auf spezifischen Zweck verengt)" if is_sys is False else "N/A")
+        sys_status = "Ja (Zweckoffenes System / Freitext)" if is_sys is True else ("Nein (Narrow AI / Auf spezifischen Zweck verengt)" if is_sys is False else "N/A")
         md.append(f"- **Einstufung als GPAI-System (Art. 3 Nr. 66 / EG 85):** {sys_status}")
         md.append(f"- **Systemisches Risiko:** {'Ja' if gpai.get('systemic_risk') else 'Nein'}")
         md.append(f"- **Trainingsrechenleistung > 10^25 FLOPs:** {'Ja' if gpai.get('flops_above_threshold') else 'Nein/Unbekannt'}")

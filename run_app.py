@@ -18,6 +18,7 @@ import time
 import streamlit.web.bootstrap as bootstrap
 
 
+
 def open_browser():
     time.sleep(2.5)
     url = "http://localhost:8501"
