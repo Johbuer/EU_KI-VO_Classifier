@@ -333,12 +333,24 @@ def generate_pdf(data=None):
         
     if gpai.get("is_gpai"):
         pdf.set_font("Helvetica", "B", 10)
-        pdf.cell(60, 6, "GPAI-Modell:", ln=0)
+        pdf.cell(60, 6, "GPAI-Modell (Art. 3 Nr. 63):", ln=0)
         pdf.set_font("Helvetica", "", 10)
         g_text = f"Ja ({gpai.get('model_name', 'N/A')})"
         if gpai.get("systemic_risk"):
             g_text += " - MIT SYSTEMISCHEM RISIKO"
         pdf.multi_cell(130, 6, g_text)
+        pdf.ln(1)
+
+        pdf.set_font("Helvetica", "B", 10)
+        pdf.cell(60, 6, "GPAI-System (Art. 3 Nr. 66):", ln=0)
+        pdf.set_font("Helvetica", "", 10)
+        if gpai.get("is_gpai_system") is True:
+            sys_text = "Ja (Zweckoffenes System / Freitext)"
+        elif gpai.get("is_gpai_system") is False:
+            sys_text = "Nein (Auf spezifischen Zweck verengt)"
+        else:
+            sys_text = "N/A"
+        pdf.multi_cell(130, 6, sys_text)
         pdf.ln(2)
         
     aut = clf.get('autonomy_level')

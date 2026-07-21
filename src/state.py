@@ -84,6 +84,9 @@ DEFAULT_STATE = {
         },
         "gpai": {
             "is_gpai": None,
+            "is_gpai_system": None,
+            "system_restriction": "",
+            "restriction_reasoning": "",
             "systemic_risk": None,
             "flops_above_threshold": None,
         },
