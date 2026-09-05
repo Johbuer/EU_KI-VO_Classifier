@@ -1,3 +1,11 @@
+"""
+Launcher-Skript für den EU AI Act Compliance Classifier.
+
+Startet den lokalen Streamlit-Server und öffnet die Benutzeroberfläche
+automatisch im Standardbrowser (bzw. als Standalone-Web-App in Chrome/Edge/Brave).
+Unterstützt sowohl den regulären Python-Start als auch PyInstaller-Bundles (_MEIPASS).
+"""
+
 import os
 import sys
 
@@ -18,8 +26,8 @@ import time
 import streamlit.web.bootstrap as bootstrap
 
 
-
 def open_browser():
+    """Öffnet die Web-UI verzögert im Browser oder als App-Fenster."""
     time.sleep(2.5)
     url = "http://localhost:8501"
     

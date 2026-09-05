@@ -1,3 +1,7 @@
+"""
+Wiederverwendbare UI-Komponenten und Styling für den EU AI Act Classifier Wizard.
+"""
+
 import streamlit as st
 from src.state import update_data, get_value
 

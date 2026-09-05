@@ -46,3 +46,12 @@ Wenn du die Anwendung weitergeben oder nutzen moechtest, ohne dass Python auf de
   ./build_mac.sh
   ```
 - Die fertige App befindet sich im Ordner `dist/EU_AI_Act_Classifier`.
+
+---
+
+## 3. Projektstruktur
+
+- `app.py`: Hauptanwendung (Streamlit Wizard)
+- `run_app.py`: Plattformunabhängiger Starter (Browser-Integration & Standalone-Modus)
+- `src/`: Modulare Anwendungslogik (Schritte, Komponenten, Datenmodelle & Exporte)
+- `build_*.sh/bat`: Skripte zur Erstellung eigenständiger Executables
